@@ -1,0 +1,144 @@
+#desktop{
+    width: 80vw;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+#heading{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.313);
+    left: 41%;
+    top: 70%;
+    text-decoration: underline;
+}
+#piechart{
+    width: 13rem;
+    height: 13rem;
+    background-color: black;
+    position: absolute;
+    left: 58%;
+    top: 9%;
+    border-radius: 50%;
+}
+#box{
+    width: 22rem;
+    height: 10rem;
+    background-color: #bcf4f5;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.dropbtn {
+    background-color: #023d8a2a;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    border-radius: 10px;
+    width: 10rem;
+}
+  
+.dropdown {
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 48%;
+    left: 45%;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#name{
+    width: 13vw;
+    height: 7vh;
+    position: absolute;
+    left: 22.2%;
+    top: 37.6%;
+    border-radius: 10px;
+    mix-blend-mode: color-burn;
+}
+#Transaction{
+    width: 27vw;
+    height: 5vh;
+    position: absolute;
+    left: 22.2%;
+    top: 180%;
+    border-radius: 10px;
+    mix-blend-mode: color-burn;
+}
+#totalbalance{
+    position: absolute;
+    top: 3%;
+    left: 33%;
+}
+#totalbalance h2{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+#cashpositive h4{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+#cashpositive h3{
+    position: absolute;
+    top: 55%;
+    left: 13%;
+}
+#cashnegative h4{
+    position: absolute;
+    top: 40%;
+    left: 63%;
+}
+#cashnegative h3{
+    position: absolute;
+    top: 55%;
+    left: 70%;
+}
+#Submit{
+    width: 28vw;
+    height: 5vh;
+    position: absolute;
+    left: 25%;
+    top: 58%;
+    border-radius: 10px;
+    mix-blend-mode: color-burn;
+}
+#transactionhistory{
+
+    position: absolute;
+    top: 45%;
+    left: 59%;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#transactionhistory h1{
+    text-decoration: underline;
+}

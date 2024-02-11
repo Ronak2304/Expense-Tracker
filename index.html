@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <img src="Untitled design (1).png" alt="desktop" id="desktop">
+    <h1 id="heading">Expense Tracker</h1>
+    <div id="piechart"></div>
+    <div id="box">
+        <div id="totalbalance">
+        <h3>Total Balance</h3>
+        <h2>$0.00</h2>
+        </div>
+        <div id="cashpositive"><h4>Cash Positive</h4><h3>+$0.00</h3></div>
+        <div id="cashnegative"><h4>Cash Negative</h4><h3>-$0.00</h3></div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Income</button>
+        <div class="dropdown-content">
+        <a>Investment</a>
+        <a>Saving</a>
+        <a>Expense</a>
+        </div>
+      </div>
+      <div id="name">
+        <form>
+            <input type="text" placeholder="Name" id="name">
+            <input type="number" placeholder="Transaction" id="Transaction">
+        </form>
+      </div>
+      <button id="Submit">Submit</button>
+      <div id="transactionhistory">
+        <h1>History</h1>
+        <h2>No Transaction</h2>
+      </div>
+    </div>
+</body>
+</html>
